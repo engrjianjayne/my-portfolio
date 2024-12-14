@@ -4,6 +4,9 @@ import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
 import project4 from '../assets/project4.png';
 import project5 from '../assets/project5.png';
+import project6 from '../assets/project6.png';
+import project7 from '../assets/project7.png';
+
 import { AiFillGithub } from 'react-icons/ai';
 import ShinyEffect from './ShinyEffect.jsx';
 import { DiJavascript1, DiReact, DiHtml5, DiCss3, DiGit, DiBootstrap } from 'react-icons/di'
@@ -11,8 +14,8 @@ import { BiLogoTailwindCss } from 'react-icons/bi'
 
 const projects = [
   {
-    img: project5,
-    title: "Project #5",
+    img: project7,
+    title: "Project #7",
     description: "A responsive data finance landing page made with React.js and Tailwind CSS highlights key insights with interactive features and works smoothly on all devices.",
     links: {
       site: "https://data-finance-sable.vercel.app/",
@@ -21,8 +24,8 @@ const projects = [
     icons: [<DiHtml5 />, <DiCss3 />, <DiJavascript1 />, <DiReact />, <BiLogoTailwindCss />]
   },
   {
-    img: project4,
-    title: "Project #4",
+    img: project6,
+    title: "Project #6",
     description: "CRUD: Create, Read, Upload and Delete Web App using React.js and Bootstrap.",
     links: {
       site: "https://crud-app-zeta-six.vercel.app/",
@@ -31,12 +34,32 @@ const projects = [
     icons: [<DiHtml5 />, <DiCss3 />, <DiJavascript1 />, <DiReact />, <DiBootstrap />]
   },
   {
-    img: project3,
-    title: "Project #3",
+    img: project5,
+    title: "Project #5",
     description: "Amazon (a JavaScript practice project).",
     links: {
       site: "https://engrjianjayne.github.io/amazon/javascript-amazon-project-main/amazon.html",
       github: "https://github.com/engrjianjayne/amazon"
+    },
+    icons: [<DiHtml5 />, <DiCss3 />, <DiJavascript1 />, <DiGit />]
+  },
+  {
+    img: project4,
+    title: "Project #4",
+    description: "Rock Paper Scissors Game: Playing this game helped me understand web programming since it just used HTML5, CSS3, and JavaScript.",
+    links: {
+      site: "https://engrjianjayne.github.io/rock-paper-scissors/12-rock-paper-scissors.html",
+      github: "https://github.com/engrjianjayne/rock-paper-scissors"
+    },
+    icons: [<DiHtml5 />, <DiCss3 />, <DiJavascript1 />, <DiGit />]
+  },
+  {
+    img: project3,
+    title: "Project #3",
+    description: "To-Do List: My understanding of crud and local storage has improved thanks to this to-do list software.",
+    links: {
+      site: "https://engrjianjayne.github.io/to-do-list/12-todo-list.html",
+      github: "https://github.com/engrjianjayne/to-do-list"
     },
     icons: [<DiHtml5 />, <DiCss3 />, <DiJavascript1 />, <DiGit />]
   },
