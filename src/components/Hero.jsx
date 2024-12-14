@@ -21,7 +21,7 @@ const Hero = () => {
           <span className="">JIAN JAYNE</span> <br/>
           <TypeAnimation
             sequence={[
-              "Developer",
+              "Software Developer",
               1500,
               "Engineer",
               1500,
